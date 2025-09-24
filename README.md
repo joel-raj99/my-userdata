@@ -10,7 +10,7 @@ In the project directory, you can run:
 
 Runs the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-Open [http://localhost:5000/api/users] fetch public api (https://jsonplaceholder.typicode.com/users)
+Open [http://localhost:5000/api/users] fetch public api [https://jsonplaceholder.typicode.com/users]
 Open [http://localhost:5000/api/todos ] fetch public api ([https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/todos?_limit=5.))
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
