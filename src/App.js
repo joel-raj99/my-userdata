@@ -22,20 +22,19 @@ function App() {
 
   return (
     <div className="p-6 bg-gradient-to-br from-gray-100 to-gray-200 min-h-screen font-sans">
-      {/* Header */}
+ 
       <Header today={today} />
 
-      {/* Stats Cards */}
+  
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
         <StatsCard icon={FaUsers} color="text-blue-500" title="Total Users" value={users.length} />
         <StatsCard icon={FaCheckCircle} color="text-green-500" title="Completed Tasks" value={12} />
         <StatsCard icon={FaClock} color="text-yellow-500" title="Pending Tasks" value={5} />
       </div>
 
-      {/* User Table */}
       <UserTable users={users} />
 
-      {/* Task List */}
+
       <TaskList tasks={tasks} />
     </div>
   );
