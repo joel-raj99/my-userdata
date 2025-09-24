@@ -1,7 +1,7 @@
 function TaskList({ tasks }) {
   return (
     <div className="relative bg-white p-6 rounded-2xl shadow-lg overflow-hidden">
-      {/* Right Edge Bar */}
+
       <div className="absolute top-0 right-0 h-full w-2 bg-pink-600 rounded-r-2xl"></div>
 
       <h2 className="text-2xl font-bold mb-4 text-gray-800">Tasks</h2>
